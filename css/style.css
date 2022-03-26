@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:wght@300&family=Staatliches&family=ZCOOL+QingKe+HuangYou&display=swap");
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 600px) {
+    #about div .par1 {
+        text-align: right;
+    }
+    #about div .par2 {
+        text-align: left;
+    }
+}
+
+nav {
+    font-family: "Poppins", sans-serif;
+}
+
+nav :hover {
+    font-weight: bold;
+    color: white;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.jumbotron {
+    padding-top: 5rem;
+    background-color: #e2edff;
+}
+
+.jumbotron h1 {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.jumbotron p {
+    font-family: "ZCOOL QingKe HuangYou", cursive;
+}
+
+#portfolio {
+    background-color: #e2edff;
+}
+
+#contact {
+    background-color: #e2edff;
+}
+
+h2 {
+    font-family: "Concert One", cursive;
+    text-transform: uppercase;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.gallery-img {
+    width: 100%;
+}
+
+#gallery .row>* {
+    padding: 2px;
+}
+
+#portfolio div p {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+h4 {
+    color: #e2edff;
+}
